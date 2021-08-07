@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+// import FunctionalComponents from './components/FunctionalComponents';
+// import ClassComponent from './components/ClassComponent';
+// import logo from './logo.svg';
 import './App.css';
+import { Component } from 'react';
+// import Counter from './components/Counter';
+import Grammarly_project from './components/Grammarly_project';
 
+// var cors = require('cors')
+// app.use(cors())
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grammarly_project />
+    // <div>
+    //   < FunctionalComponents />
+    //   < ClassComponent />
+    // </div>
   );
 }
 
